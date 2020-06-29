@@ -1,0 +1,90 @@
+@use "@material/textfield";
+@include textfield.core-styles;
+
+
+
+:root{
+    --dancing: 'Dancing Script', cursive;
+    --Roboto: 'Roboto', sans-serif;
+
+    --main-color: #e61f5b;
+    --main-color-hover: #ca2758;
+    --text-color: white;
+    --text-color-hover:rgb(209, 209, 209);
+    --text-color-card: #212338;
+
+    --text-xxsmall:2em;
+    --text-small:3em;
+    --text-medium:6em;
+    --text-large:8em;
+
+    --footer-color: #08080e;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body,html{
+    font-size: 10px;
+    
+}
+
+
+main{
+    
+    width: 90vw;
+    margin: 0 auto;
+}
+main h1{
+    display: flex;
+    justify-content: center;
+    font-size: var(--text-large);
+    color: var(--main-color);
+    font-family: var(--dancing);
+    
+}
+
+main .card-main{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+main .article-main{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--text-xxsmall);
+    color: var(--text-color-card);
+    font-family: var(--Roboto);
+
+}
+
+main .card-main{
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.4);
+    display: flex;
+    margin-top: 20px;
+}
+main .card-main img{
+    
+    display: flex;
+    
+    max-width: 25vw;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+nav{
+ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: var(--Roboto);
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    width: 100%;
+    
+    
+    
+}
+ul{
+    display: flex;
+
+}
+ul li{
+    list-style: none;
+
+}
+nav .nav-links li{
+    margin-left: 20px;
+
+}
+ul li a {
+   
+    text-decoration:none;
+  
+    color: white;
+}
+.Logo{
+    font-family: var(--dancing);
+    font-size: 5em;
+   
+}
+.links{
+    font-family: var(--Roboto);
+    font-weight:300;
+    font-size: var(--text-xxsmall);
+}
+.links:hover{
+    color:var(--text-color-hover);
+}
+.btn-main{
+background-color: var(--main-color);
+border-radius: 2em;
+padding: 10px 20px;
+font-size: var(--text-xxsmall);
+}
+
+.btn-main:hover{
+    background: var(--main-color-hover);
+}
+

@@ -1,0 +1,59 @@
+footer{
+    margin-top: 20px;
+    width: 100vw;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    color: white;   
+    font-size: var(--text-xxsmall);
+    font-family: var(--Robotoo);
+    position: relative;
+    bottom: 0;
+
+}
+
+footer .contains-footer a{
+    color: white;
+    display: flex;
+}
+
+.contains-social a{
+    fill: white;
+}
+
+.contains-social{
+    display: flex;
+    flex-direction: row;
+}
+
+footer .row-footer{
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+align-items: center;
+margin-top: 20px;
+width: 100vw;
+height: 100%;
+font-family: var(--Roboto);
+}
+
+footer .row-footer .contains-social .facebook{
+    content: url('../assets/facebook.svg');
+    width: 50px;
+    display: flex;
+}
+footer .row-footer .contains-social .Twitter{
+    content: url('../assets/twitter.svg');
+    width: 50px;
+    display: flex;
+}
+
+footer .row-footer .contains-social .instagram{
+    content: url('../assets/instagram-esbocado.svg');
+    width: 50px;
+    display: flex;
+}
+    

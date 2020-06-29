@@ -1,0 +1,139 @@
+@media (max-width: 1000px){
+    footer .contains-footer{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+
+@media (max-width: 900px){
+
+    .background-image{
+        height: 60vh;
+    }
+    footer{
+
+        flex-direction: column;
+
+    }
+    footer .row-footer{
+        display: flex;
+        justify-content: space-around;
+        height: 100%;
+        font-size: var(--text-xxsmall);
+    }
+
+    .card-main{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .card-main img{
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 600px){
+    
+    
+    .textmain h1{
+        font-size: var(--text-medium);
+    }
+
+    .textmain p{
+        font-size: var(--text-small);
+        
+    }
+
+ 
+}
+
+@media screen and (max-width: 768px){
+
+
+    .nav-links{
+        position: fixed;
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        flex-direction: column;
+        background-image:linear-gradient( #e61f5b,#be194a);
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        bottom: 0;      
+        cursor: pointer;
+        clip-path: circle(25px at 94% -5%);
+        webkit-clip-path:circle(100px at 94% -5%);
+        transition: transform, clip-path 1s ease-out;
+    }
+
+    .nav-links.open{
+        clip-path: circle(1000px at 95% 5%);
+        webkit-clip-path:circle(1000px at 94% -5%);
+        transition: transform, clip-path 1s ease-in;
+    }
+
+    .hamburger{
+        padding: 10px;
+        cursor: pointer;
+        position: absolute;
+        right: 1%;
+        top: -30%;
+        transform: translate( 5%, 50%);
+        z-index: 1;
+        background-color: var(--main-color);
+        border-radius: 4px;
+    }
+
+  
+
+    .line{
+        width: 20px;
+        height: 2px;
+        display: flex;
+        background-color: white;
+        margin: 5px;
+    }
+
+    .nav-links li .links{
+       padding: 60px 120px;
+    }
+   
+    footer{
+        z-index: -1;
+    }
+    
+
+
+    .btn-main{
+        color: var(--main-color);
+        background: white;
+    }
+    .btn-main:hover{
+        background-color: rgb(201, 201, 201);
+    }
+
+
+    .nav-links li a {
+        width: 100vw;
+
+    }
+
+    .nav-links{
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+   
+   
+
+    main h1{
+        margin-top: 30px;
+    }
+
+}
