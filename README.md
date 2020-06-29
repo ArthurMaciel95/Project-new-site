@@ -4,6 +4,6 @@
 ![GitHub stars](https://img.shields.io/github/stars/ArthurMaciel95/Project-new-site?style=social)
 
 
+<img  src="https://i.imgur.com/4gd9Yt5.png">
+<img  src="https://i.imgur.com/KjsKZ2C.png">
 
-![repo image](https://i.imgur.com/4gd9Yt5.png)
-![repo image](https://i.imgur.com/KjsKZ2C.png)
